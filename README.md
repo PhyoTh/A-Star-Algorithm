@@ -42,25 +42,25 @@ Run `python main.py` to open the grid world window. By pressing `enter` you can 
 
 Here are some examples of the Grid World in action with different search algorithms:
 
+### DFS (Depth-First Search)
+
+![DFS Algorithm](images/dfs.png)
+_DFS often finds suboptimal paths (score 377) as it aggressively explores deep branches first._
+
 ### BFS (Breadth-First Search)
 
-![BFS Algorithm](./screenshots/bfs_search.png)
+![BFS Algorithm](images/bfs.png)
 _BFS finding a path with a score of 19. Notice how it explores nodes in layers from the starting point._
 
 ### UCS (Uniform Cost Search)
 
-![UCS Algorithm](./screenshots/ucs_search.png)
+![UCS Algorithm](images/ucs.png)
 _UCS finding an optimal path with a score of 40. It prioritizes paths with lower total cost._
 
 ### A\* Search
 
-![A* Algorithm](./screenshots/astar_search.png)
+![A* Algorithm](images/astar.png)
 _A_ finding the same optimal path as UCS (score 40) but exploring fewer nodes due to its heuristic function.\*
-
-### DFS (Depth-First Search)
-
-![DFS Algorithm](./screenshots/dfs_search.png)
-_DFS often finds suboptimal paths (score 377) as it aggressively explores deep branches first._
 
 These screenshots demonstrate how different algorithms explore the grid and find paths with varying efficiency and optimality.
 
